@@ -31,6 +31,8 @@
                     android:layout_weight="1"
                     android:textSize="18sp"
                     android:padding="15dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:text="@={model.title}"
                     tools:text="Titulo"
                     android:background="@android:color/transparent"

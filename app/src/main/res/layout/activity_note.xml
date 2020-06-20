@@ -45,6 +45,8 @@
                     <EditText
                         android:textSize="18sp"
                         android:text="@={model.title}"
+                        android:maxLines="1"
+                        android:singleLine="true"
                         android:background="@android:color/transparent"
                         android:padding="15dp"
                         android:hint="Título..."
